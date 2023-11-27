@@ -1,0 +1,15 @@
+[build-system]
+requires = ['hatchling','numpy','matplotlib','cartopy']
+build-backend = "hatchling.build"
+
+[project]
+name = "make_ax_circular"
+version = "0.0.1"
+authors = [{ name="Hannah Zanowski", email="zanowski@wisc.edu" }]
+description = "A package for making cartopy axes circular"
+readme = "README.md"
+requires-python=">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: GNU GENERAL PUBLIC LICENSE Version 3",
+    "Operating System :: OS Independent"]
