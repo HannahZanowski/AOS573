@@ -15,3 +15,5 @@ dependencies:
   - matplotlib
   - satpy
   - xarray
+  - dask
+  - distributed  
